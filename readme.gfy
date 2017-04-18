@@ -10,8 +10,10 @@ Okay, so a few things:
 
 4. order of operations/separation of concerns:
   1. start ruby project
-    1. establish personal gem 'essentials'
-      1. testing suite (rspec?)
+    1. establish personal 'gemssentials'
+      1. bundle install
+      2. git add Gemfile.lock
+      3. testing suite (rspec?)
     2. setup gems/start project
   2. setup twitter
     1. setup twitter gem
