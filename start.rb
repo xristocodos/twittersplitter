@@ -1,0 +1,1 @@
+puts "omigah hai!"
