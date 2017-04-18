@@ -1,0 +1,34 @@
+Okay, so a few things:
+
+1. GFY files are Readmes that assume the user is owed nothing since this ish is free.99
+
+2. i'm not doing that dumb ms word thing with alternating indentation demarkers
+
+3. purpose:
+  1. refresher on ruby project (non-web) setup, web setup later
+  2. refresher on managing API keys w/o accidental commit in plaintext
+
+4. order of operations/separation of concerns:
+  1. start ruby project
+    1. establish personal gem 'essentials'
+      1. testing suite (rspec?)
+    2. setup gems/start project
+  2. setup twitter
+    1. setup twitter gem
+    2. setup twitter keyhandling
+      1. is there a way to manage multiple keys?
+    3. user input time!
+      1. get twitter handles
+      2. get "category" for each twitter
+        3. maybe take lists from main account and auto-sort?
+    4. find out twitter api capabilities with regards to:
+      1. pulling down followers
+      2. following and unfollowing accounts
+        NOTE: don't unfollow until already following on new account
+    5. figure out some kind of crude menu-driven UI in ruby, like Pine
+  3. keep using it until it does what you want, the way you want
+  4. if you're just now thinking about TDD, you're too late. go back to #1.
+
+     With Love,
+
+       xristocreates on the Twittahz
